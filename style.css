@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    min-height: 100%;
+}
+.about{
+    margin-left: 240px;
+    margin-top: 0px;
+    position: absolute;
+}
+.statement{
+    position: absolute;
+}
+.statement1{
+    margin-top: 100px;
+    margin-left: 80px;
+    width: 200px;
+}
+.statement1 p{
+    width: 550px;
+    text-align: justify;
+    margin-top: 20px;
+}
+.generic{
+    position: absolute;
+}
+.slogan{
+    margin-top: 210px;
+    margin-left: 585px;
+    width: 400px;
+    text-align: center;
+}
+.dropdown{
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: gray;
+    width: 990px;
+}
+.dropdown ul{
+    padding: 20px;
+}
+.footer{
+    background-color: mediumaquamarine;
+    margin-left: 850px;
+    margin-top: 10px;
+}
+.footer p{
+    padding-top: 10px;
+    padding-left: 55px;
+    height: 20px;
+}
+.image{
+    background-color: mediumaquamarine;
+    height: 275px;
+    margin-left: 850px;
+    padding: 10px;
+    position: absolute;
+}
+.image h5{
+    padding-left: 15px;
+    color: white;
+}
+h2{
+    background-color:mediumaquamarine;
+    width: 215px;
+    height: 35px;
+    padding-top: 23px;
+    padding-left: 25px;
+}
+.sidebar{
+    background-color: mediumaquamarine;
+    width: 200px;
+    right: 0;
+    padding: 20px;
+    min-height: 541PX;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.sidebar_content ul li a{
+    display: block;
+    padding: 13px 30px;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    position: relative;
+    color: black;
+    
+}
+.sidebar_content ul li a:hover,
+.sidebar_content ul li a.active{
+    color: mediumaquamarine;
+    
+    background: black;
+    border-right: 2px solid grey;
+    
+}
+.contact{
+    margin-top: 50px;
+}
+.contact h3{
+    margin-left: 55px;
+    margin-bottom: 3px;
+}
+.form {
+    margin-top: 20px;
+}
+.btn{
+    background-color: black;
+    color: mediumaquamarine;
+}
+.form input{
+    width: 90px;
+    padding: 6px;
+    border-radius: 5px;
+    border-style: none;
+}
+input:focus{
+    outline: solid 2px gray;
+}
+.info{
+    margin-top: 10px;
+}
